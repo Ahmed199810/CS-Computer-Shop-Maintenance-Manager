@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="574.0" prefWidth="968.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapp.MainController">
+   <top>
+      <ToolBar nodeOrientation="RIGHT_TO_LEFT" style="-fx-background-color: #186a99;" BorderPane.alignment="CENTER">
+        <items>
+            <Button id="btns" fx:id="btn_hard_fix" mnemonicParsing="false" onAction="#BtnHardwareFix" prefHeight="35.0" prefWidth="125.0" style="-fx-background-color: #186a99; -fx-border-color: #fff; -fx-border-radius: 5;" text="صيانه هاردوير" textAlignment="CENTER" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="51.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/hardware.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btn_soft_fix" mnemonicParsing="false" onAction="#BtnSoftwareFix" prefHeight="35.0" prefWidth="138.0" style="-fx-background-color: #186a99; -fx-border-color: #fff; -fx-border-radius: 5;" text="صيانه سوفت وير" textAlignment="CENTER" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="28.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/software.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="btn_printer_fix" mnemonicParsing="false" onAction="#BtnPrinterFix" prefHeight="35.0" prefWidth="107.0" style="-fx-background-color: #186a99; -fx-border-color: #fff; -fx-border-radius: 5;" text="صيانه احبار" textAlignment="CENTER" textFill="WHITE">
+               <graphic>
+                  <ImageView fx:id="btn_print_fix" fitHeight="39.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/printer.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="btn_report" mnemonicParsing="false" onAction="#BtnReports" prefHeight="35.0" prefWidth="118.0" style="-fx-background-color: #186a99; -fx-border-color: #fff; -fx-border-radius: 5;" text="حالات الصيانه" textAlignment="CENTER" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="22.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/list.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            
+            <MenuButton mnemonicParsing="false" prefHeight="35.0" style="-fx-background-color: #186a99; -fx-border-color: #fff; -fx-border-radius: 5;" text="طلبات" textFill="WHITE">
+              <items>
+                <MenuItem fx:id="menu_customers_orders" mnemonicParsing="false" onAction="#BtnCustomerNeeds" style="-fx-padding: 10;" text="طلبات عملاء" />
+                <MenuItem mnemonicParsing="false" onAction="#OuterFixOrders" style="-fx-padding: 10;" text="صيانات الشركات الجارجيه" />
+              </items>
+            </MenuButton>
+            <MenuButton mnemonicParsing="false" prefHeight="35.0" style="-fx-background-color: #186a99; -fx-border-color: #fff; -fx-border-radius: 5;" text="اقسام اخري" textFill="WHITE">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#OuterFix" style="-fx-padding: 10;" text="صيانات خارجيه" />
+                  <MenuItem fx:id="menu_customers_other" mnemonicParsing="false" onAction="#BtnCustomers" style="-fx-padding: 10;" text="العملاء" />
+              </items>
+            </MenuButton>
+            <Button mnemonicParsing="false" onAction="#Btndashboard" prefHeight="35.0" prefWidth="99.0" style="-fx-background-color: #186a99; -fx-border-color: #fff; -fx-border-radius: 5;" text="لوحه التحكم" textFill="WHITE" />
+            <TextField prefHeight="35.0" prefWidth="177.0" promptText="بحث" />
+        </items>
+      </ToolBar>
+   </top>
+   <left>
+      <ToolBar orientation="VERTICAL" prefHeight="515.0" prefWidth="71.0" style="-fx-background-color: #186a99;" BorderPane.alignment="CENTER">
+         <items>
+            <ImageView fx:id="btn_setting" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/settings.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btn_history" fitHeight="150.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/about.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btn_call" fitHeight="150.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/contact.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btn_sync" fitHeight="150.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/sync.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btn_update" fitHeight="150.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/update.png" />
+               </image>
+            </ImageView>
+         </items>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </ToolBar>
+   </left>
+   <center>
+      <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox fx:id="clk" alignment="CENTER" fillWidth="false" prefHeight="200.0" prefWidth="100.0" StackPane.alignment="CENTER" />
+            <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="235.0" prefWidth="193.0" StackPane.alignment="BOTTOM_LEFT">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/pp.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label text="CS Computer Shop">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+               <StackPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </StackPane.margin>
+            </VBox>
+         </children>
+      </StackPane>
+   </center>
+</BorderPane>

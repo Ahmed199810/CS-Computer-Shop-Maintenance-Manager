@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFxApp.jnlp">
+  <information>
+    <title>JavaFxApp</title>
+    <vendor>Ahmed</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="8.0+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFxApp.jar" size="582608" download="eager" />
+    <jar href="lib/controlsfx-8.40.11.jar" size="985420" download="eager" />
+    <jar href="lib/httpclient-4.5.6.jar" size="767140" download="eager" />
+    <jar href="lib/jcommon-1.0.15.jar" size="309294" download="eager" />
+    <jar href="lib/jcommon-1.0.16.jar" size="309293" download="eager" />
+    <jar href="lib/jfoenix-9.0.9.jar" size="2414624" download="eager" />
+    <jar href="lib/jfreechart-1.0.13.jar" size="1425744" download="eager" />
+    <jar href="lib/jmf.jar" size="2127510" download="eager" />
+    <jar href="lib/json-20131018.jar" size="65139" download="eager" />
+    <jar href="lib/jstun.jar" size="77453" download="eager" />
+    <jar href="lib/jxdatepicker-support-1.0.jar" size="4829" download="eager" />
+    <jar href="lib/kotlin-runtime.jar" size="878511" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.20.jar" size="540852" download="eager" />
+    <jar href="lib/okhttp-3.9.0.jar" size="405733" download="eager" />
+    <jar href="lib/okio-1.13.0.jar" size="81811" download="eager" />
+    <jar href="lib/org.kevoree.extra.osgi.rxtx-2.2.0.jar" size="872274" download="eager" />
+    <jar href="lib/org.sintef.jarduino.core-0.1.7-SNAPSHOT.jar" size="77658" download="eager" />
+    <jar href="lib/org.sintef.jarduino.gui-0.1.7-SNAPSHOT.jar" size="163972" download="eager" />
+    <jar href="lib/sqlite-jdbc-3.27.2.1.jar" size="6012107" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaFxApp" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafxapp.Main"  name="JavaFxApp" />
+  <update check="always"/>
+</jnlp>

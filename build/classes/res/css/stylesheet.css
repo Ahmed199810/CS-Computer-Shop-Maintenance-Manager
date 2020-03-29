@@ -1,0 +1,35 @@
+.list-view {
+    
+}
+
+.list-cell {
+    -fx-padding: 10px;
+    -fx-background-color: #f5f0f0;
+    -fx-background-insets: 5px;
+    -fx-background-radius: 2px;
+    -fx-text-fill: #000;
+}
+
+.list-cell:hover {
+    -fx-padding: 10px;
+    -fx-background-color: #3b3737;
+    -fx-background-insets: 5px;
+    -fx-background-radius: 2px;
+    -fx-text-fill: #fff;
+}
+
+.list-cell:pressed {
+    -fx-padding: 10px;
+    -fx-background-color: #1f1c1c;
+    -fx-background-insets: 5px;
+    -fx-background-radius: 2px;
+    -fx-text-fill: #fff;
+}
+
+.list-cell:empty {
+    -fx-padding: 10px ;
+    -fx-background-color: #e6dddc;
+    -fx-background-insets: 5px;
+    -fx-background-radius: 2px;
+    -fx-text-fill: #000;
+}

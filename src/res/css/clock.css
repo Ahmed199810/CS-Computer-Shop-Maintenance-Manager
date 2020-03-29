@@ -1,0 +1,51 @@
+#display {
+    -fx-font-size: 24;
+    -fx-font-family: monospace;
+    -fx-text-fill: navy;
+    -fx-background-color: cornsilk;
+    -fx-background-radius: 10.0px;
+    -fx-border-radius: 10.0px;
+    -fx-border-color: chocolate;
+    -fx-border-width: 0.5px;
+}
+
+#menu {
+    -fx-font-size: 12;    
+}
+
+.root {
+    -fx-background-color: white;
+}
+
+#face {
+  -fx-fill: white;
+}
+
+#hourHand {
+  -fx-stroke: darkslategray;
+  -fx-stroke-width: 4;
+  -fx-stroke-line-cap: round;
+}
+
+#minuteHand {
+  -fx-stroke: derive(darkslategray, -5%);
+  -fx-stroke-width: 3;
+  -fx-stroke-line-cap: round;
+}
+
+#secondHand {
+  -fx-stroke: derive(firebrick, -15%);
+  -fx-stroke-width: 2;
+  -fx-stroke-line-cap: round;
+}
+
+#spindle {
+  -fx-fill: derive(darkslategray, +5%);
+}
+
+.tick {
+/*  -fx-stroke: derive(darkgoldenrod, -15%);*/
+  -fx-stroke: gray;
+  -fx-stroke-width: 3;
+  -fx-stroke-line-cap: round;
+}

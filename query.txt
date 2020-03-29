@@ -1,0 +1,164 @@
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (82,'Ahmed Mostafa','1113207046','jgfdghgfxdxcvhgv',0,0,1,0,0,0,0,0,0,0,'',' 2020-02-09 02:12:51.831 ','hgfdgjhgf',0);
+INSERT INTO customers (name, phone) VALUES ('amsmansa','5852');
+INSERT INTO software_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (83,'amsmansa','5852','kjhgjhjh',0,0,0,0,1,1,0,0,0,'uiytrtdfgcvhghjgjh',' 2020-02-09 02:14:17.832 ','kkjhgfhjk',0);
+INSERT INTO customers (name, phone) VALUES ('iouytuio','15346853');
+INSERT INTO printer_fix (device_num, customer_name, phone_num, prob, fill_printer, change_dram, check_all, cable_power, cable_data, cd, other, date_time, device_name, state) VALUES (84,'iouytuio','15346853','jkhgf',0,0,1,0,0,1,'oooopiohgfyd',' 2020-02-09 02:14:47.411 ','iuyhfgbvgh',0);
+INSERT INTO customers_needs (customer_name, phone_num, needs, loc, date_time, due_date_time) VALUES ('new','015645876546','hdfgdfdfgd','ooooocctt','2020-02-09 02:17:53.956','2020-02-19 2:17');
+INSERT INTO customers_needs (customer_name, phone_num, needs, date_time) VALUES ('ahmed mostafa','01113207046','labtop جديد','2020-02-09 14:04:26.222');
+UPDATE customers_needs SET customer_name = 'ahmed mostafa', phone_num = '01113207046',needs = 'لابتوب جديد او استيراد'WHERE id = '1'
+INSERT INTO customers_needs (customer_name, phone_num, needs, date_time) VALUES ('محمد','010241686564','keyboard مستعمل','2020-02-09 14:07:59.292');
+INSERT INTO customers_needs (customer_name, phone_num, needs, date_time) VALUES ('abdo','015656465462','بطاريه لابتوب','2020-02-09 14:11:24.428');
+UPDATE customers_needs SET state = 1 WHERE id = 2
+UPDATE outer_fix SET state = 1 WHERE id = 49
+DELETE FROM customers_needs WHERE id = 2
+DELETE FROM customers_needs WHERE id = 2
+DELETE FROM outer_fix WHERE id = 2
+INSERT INTO customers_needs (customer_name, phone_num, needs, date_time) VALUES ('محمد','05485413564','كمبيوتر بايظ','2020-02-09 15:08:47.575');
+UPDATE customers_needs SET state = 1 WHERE id = 4
+UPDATE outer_fix SET state = 1 WHERE id = 1
+DELETE FROM outer_fix WHERE id = 18
+UPDATE outer_fix SET state = 1 WHERE id = 31
+UPDATE outer_fix SET state = 1 WHERE id = 31
+DELETE FROM outer_fix WHERE id = 32
+UPDATE outer_fix SET state = 1 WHERE id = 32
+DELETE FROM outer_fix WHERE id = 43
+UPDATE outer_fix SET state = 1 WHERE id = 43
+UPDATE hardware_fix SET customer_name = 'Ahmed Mostafa', phone_num = '1113207046', prob = 'jgfdghgfxdxcvhgv', win7 = 0, win8 = 0, win10 = 1, check_all = 0, hardware  = 0, software = 0, battery = 0, charger = 0, bag = 0, cd = 0, other = '', price = '1500', device_name = 'hgfdgjhgf'WHERE id = 219
+DELETE FROM hardware_fix WHERE id = 219
+INSERT INTO software_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (82,'Ahmed Mostafa','1113207046','jgfdghgfxdxcvhgv',0,0,1,0,0,0,0,0,0,'',' 2020-02-09 ','hgfdgjhgf',0);
+DELETE FROM hardware_fix WHERE id = 218
+DELETE FROM hardware_fix WHERE id = 217
+INSERT INTO printer_fix (device_num, customer_name, phone_num, prob, fill_printer, change_dram, check_all, cable_power, cable_data, cd, other, date_time, device_name, state) VALUES (80,'body','0111251684654','',0,0,0,0,0,0,'',' 2020-02-03 ','hp',0);
+DELETE FROM hardware_fix WHERE id = 215
+INSERT INTO software_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (71,'jahscjhasj','01113207046','acvjavjhca',0,0,0,0,0,0,0,0,0,'ajshgjasc',' 2020-02-02 ','kasbjhc',1);
+DELETE FROM hardware_fix WHERE id = 214
+INSERT INTO printer_fix (device_num, customer_name, phone_num, prob, fill_printer, change_dram, check_all, cable_power, cable_data, cd, other, date_time, device_name, state) VALUES (70,'ahmed mostafa','354354','vansdvabns',0,0,0,0,0,0,'jahsgjhads',' 2020-02-02 ','ansdnabsvd',3);
+DELETE FROM hardware_fix WHERE id = 212
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (78,'احمد مصطفي','1123580555','',0,0,1,0,0,0,1,1,1,0,'',' 2020-02-03 ','لاب جديد',0);
+DELETE FROM software_fix WHERE id = 22
+INSERT INTO printer_fix (device_num, customer_name, phone_num, prob, fill_printer, change_dram, check_all, cable_power, cable_data, cd, other, date_time, device_name, state) VALUES (73,'jhjavjsc','0111015216','power',0,0,0,0,0,0,'aaaaaaaaaaa',' 2020-02-02 ','dellllllllllll',2);
+DELETE FROM software_fix WHERE id = 21
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (77,'Ahmed Mostafa','1113207046','',0,0,0,0,0,0,0,0,0,0,'',' 2020-02-03 ','hhhhh',0);
+DELETE FROM printer_fix WHERE id = 42
+INSERT INTO software_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (28,'Ahmed Mostafa','1113207046','Power Failure',0,0,0,1,0,0,0,0,1,'coverكابل باوركابل داتا',' 2019-11-18 ','HP printer',3);
+DELETE FROM printer_fix WHERE id = 39
+INSERT INTO customers (name, phone) VALUES ('teto','015455465165');
+INSERT INTO customers (name, phone) VALUES ('hi customer','');
+INSERT INTO customers (name, phone, address) VALUES ('tamer','01135464686','الحي الخامس والعشرين');
+UPDATE customers SET name = 'tamer', phone = '01135464686',address = 'الحي الخامس والالثلاثين'WHERE id = '443'
+DELETE FROM customers_needs WHERE id = 440
+DELETE FROM customers_needs WHERE id = 440
+DELETE FROM customers WHERE id = 440
+UPDATE customers SET name = 'hi customer', phone = '0505457835', address = ''WHERE id = '442'
+UPDATE customers SET name = 'oiujhtgfh', phone = 'jcfhcfggffg', address = ''WHERE id = '386'
+DELETE FROM outer_fix_orders WHERE id = 14
+UPDATE outer_fix_orders SET customer_name = 'New user', phone_num = '533246',needs = 'بثيلالا',loc = 'لبالتلبليب',due_date_time = '2019-11-25 01:04'WHERE id = '44'
+UPDATE outer_fix_orders SET state = 1 WHERE id = 45
+INSERT INTO outer_fix_orders (customer_name, phone_num, needs, loc, date_time, due_date_time) VALUES ('tamer','01135464686','sakdgasjhdj','october','2020-02-11 22:54:03.463','2020-11-30 10:40');
+INSERT INTO outer_fix (device_num, customer_name, customer_phone_num, rep_name, rep_phone_num, prob, win7, win8, win10, check_all, hardware, software, fill_printer, change_dram, battery, charger, bag, cd, cable_power, cable_data, other, date_time, device_name, state) VALUES (85,'yousef','564326515632','gjascvh',025646532,'jashg',1,1,1,1,1,1,1,1,1,1,0,1,0,1,'jahsfjdhasdsad',' 2020-02-12 00:21:17.724 ','navncsnbavcnb',0);
+INSERT INTO outer_fix (device_num, customer_name, customer_phone_num, rep_name, rep_phone_num, prob, win7, win8, win10, check_all, hardware, software, fill_printer, change_dram, battery, charger, bag, cd, cable_power, cable_data, other, date_time, device_name, state) VALUES (86,'Tarazan','01234567890','kishak',000005555511,'fire',1,0,0,1,0,1,1,0,1,1,0,0,1,0,'no',' 2020-02-12 00:30:38.827 ','zoo',0);
+UPDATE software_fix SET state = 1 WHERE id = 19
+UPDATE software_fix SET state = 3 WHERE id = 19
+UPDATE software_fix SET state = 2 WHERE id = 17
+UPDATE outer_fix SET customer_name = 'Tarazan', customer_phone_num = '01234567890', prob = 'fire', win7 = 1, win8 = 0, win10 = 0, check_all = 1, hardware  = 0, software = 1, fill_printer = 1, change_dram = 0, cable_power = 1, cable_data = 0, battery = 1, charger = 1, bag = 0, cd = 0, other = 'no', price = '1500', rep_name = 'kishak', rep_phone_num = '5555511', device_name = 'zoo'WHERE id = 2
+UPDATE outer_fix SET state = 1 WHERE id = 2
+UPDATE outer_fix SET state = 3 WHERE id = 2
+UPDATE outer_fix SET state = 2 WHERE id = 1
+UPDATE outer_fix SET customer_name = 'yousef', customer_phone_num = '010354651563', prob = 'jashg', win7 = 1, win8 = 1, win10 = 1, check_all = 1, hardware  = 1, software = 1, fill_printer = 1, change_dram = 1, cable_power = 0, cable_data = 1, battery = 1, charger = 1, bag = 0, cd = 1, other = 'jahsfjdhasdsad', price = '0', rep_name = 'gjascvh', rep_phone_num = '015844365332', device_name = 'محمود الراوي'WHERE id = 1
+UPDATE outer_fix SET customer_name = 'yousef', customer_phone_num = '010354651563', prob = 'jashg', win7 = 1, win8 = 1, win10 = 1, check_all = 1, hardware  = 1, software = 1, fill_printer = 1, change_dram = 1, cable_power = 0, cable_data = 1, battery = 1, charger = 1, bag = 0, cd = 1, other = 'jahsfjdhasdsad', price = '16000', rep_name = 'gjascvh', rep_phone_num = '015844365332', device_name = 'محمود الراوي'WHERE id = 1
+INSERT INTO outer_fix (device_num, customer_name, customer_phone_num, rep_name, rep_phone_num, prob, win7, win8, win10, check_all, hardware, software, fill_printer, change_dram, battery, charger, bag, cd, cable_power, cable_data, other, date_time, device_name, state) VALUES (85,'yousef','','','','نالاشرتؤشتؤرتشاس',0,0,0,1,1,0,0,0,0,1,0,1,0,0,'تلشبستالشتسلؤشسؤ',' 2020-02-11 ','سنتلؤتشرؤت',0);
+DELETE FROM hardware_fix WHERE id = 224
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (73,'jhjavjsc','111015216','power',0,0,0,0,0,0,0,0,0,0,'aaaaaaaaaaa',' 2020-02-02 ','dellllllllllll',2);
+DELETE FROM printer_fix WHERE id = 46
+INSERT INTO outer_fix (device_num, customer_name, customer_phone_num, rep_name, rep_phone_num, prob, win7, win8, win10, check_all, hardware, software, fill_printer, change_dram, battery, charger, bag, cd, cable_power, cable_data, other, date_time, device_name, state) VALUES (73,'jhjavjsc','111015216','','','power',0,0,0,0,0,0,0,0,0,0,0,0,0,0,'aaaaaaaaaaa',' 2020-02-02 ','dellllllllllll',2);
+DELETE FROM hardware_fix WHERE id = 225
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (87,'sempa','01135464686','power failure',0,0,1,1,0,0,1,1,0,1,'mouse',' 2020-02-12 05:33:24.829 ','fujitsu',0);
+INSERT INTO software_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (87,'sempa','01564546487','khjvhgh',0,0,0,0,0,0,0,0,0,'',' 2020-02-12 05:36:11.915 ','jkjhgd',0);
+UPDATE device_count SET count = '87'WHERE id = 1
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (88,'sempa','01586451654','JHASD',1,1,1,1,0,0,0,1,0,0,'',' 2020-02-12 05:43:07.976 ','kGSDJHAS',0);
+UPDATE device_count SET count = '88'WHERE id = 1
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (89,'sempa','0468635146','jsg',0,0,1,0,0,0,0,1,0,0,'',' 2020-02-12 05:45:14.411 ','khgsjdjasd',0);
+UPDATE device_count SET count = '89'WHERE id = 1
+INSERT INTO customers (name, phone, address) VALUES ('sempa','05463265645','');
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (90,'sempa','05463265645','JHSCJHASV',1,0,0,1,0,0,0,0,0,0,'ajhsfjasc',' 2020-02-12 05:49:46.718 ','jasvjvajsvajsx',0);
+UPDATE device_count SET count = '90'WHERE id = 1
+INSERT INTO customers (name, phone, sec_phone, address) VALUES ('samy','018646854546','','');
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (91,'samy','018646854546','hghghgff',1,0,0,1,1,0,1,0,1,0,'',' 2020-02-12 06:28:01.482 ','jhgfhjf',0);
+UPDATE device_count SET count = '91'WHERE id = 1
+UPDATE customers SET name = 'samy', phone = '018646854546', sec_phone = '', address = ''WHERE id = '445'
+UPDATE customers SET name = 'koko', phone = '0158656623', sec_phone = '13564532', address = ''WHERE id = '446'
+INSERT INTO customers (name, phone, sec_phone, address) VALUES ('nagla','546485432','0168455421','shobra');
+INSERT INTO customers (name, phone, sec_phone, address) VALUES ('ansaf','0564546854','','');
+INSERT INTO printer_fix (device_num, customer_name, phone_num, prob, fill_printer, change_dram, check_all, cable_power, cable_data, cd, other, date_time, device_name, state) VALUES (92,'ansaf','0564546854','jhgvgjh',1,0,0,0,1,0,'kujhg',' 2020-02-12 06:59:15.406 ','kyjthrgfgh',0);
+UPDATE device_count SET count = '92'WHERE id = 1
+UPDATE customers SET name = 'ansaf', phone = '0564546854', sec_phone = '0111359475', address = ''WHERE id = '449'
+UPDATE hardware_fix SET state = 3 WHERE id = 229
+UPDATE software_fix SET state = 3 WHERE id = 27
+UPDATE software_fix SET state = 1 WHERE id = 24
+UPDATE customers SET name = 'Ahmed Mostafa', phone = '01113207046', sec_phone = '', address = ''WHERE id = '410'
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (93,'akscbahc','67543','ajciguacac',0,0,1,1,1,1,1,1,0,1,'djhcsdc',' 2020-02-13 22:05:57.997 ','ascjgfasc',0);
+UPDATE device_count SET count = '93'WHERE id = 1
+INSERT INTO customers (name, phone, sec_phone, address) VALUES ('skjgkhsdf','54654','','');
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (94,'skjgkhsdf','54654','',0,0,0,0,0,0,0,0,0,0,'',' 2020-02-13 22:13:40.074 ','hgajshd',0);
+UPDATE device_count SET count = '94'WHERE id = 1
+INSERT INTO customers (name, phone, sec_phone, address) VALUES ('shdgcjh','0354986536','','');
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (95,'shdgcjh','0354986536','',0,0,0,0,0,0,0,0,0,0,'',' 2020-02-13 22:13:51.82 ','kjdjhcsd',0);
+UPDATE device_count SET count = '95'WHERE id = 1
+INSERT INTO customers (name, phone, sec_phone, address) VALUES ('ashdgjh','53413','','');
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (96,'ashdgjh','53413','',0,0,0,0,0,0,0,0,0,0,'',' 2020-02-13 22:18:30.706 ','ugshdjc',0);
+UPDATE device_count SET count = '96'WHERE id = 1
+INSERT INTO customers (name, phone, sec_phone, address) VALUES ('kjasckbh','48964532','','');
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (97,'kjasckbh','48964532','javcjasdc',0,0,0,0,0,0,0,0,0,0,'',' 2020-02-13 22:19:50.553 ','kjnsdhcjhdc',0);
+UPDATE device_count SET count = '97'WHERE id = 1
+INSERT INTO customers (name, phone, sec_phone, address) VALUES ('uiywejkfd','5453','','');
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (98,'uiywejkfd','5453','sjgdc',0,0,0,0,0,0,0,0,0,0,'',' 2020-02-13 22:21:25.467 ','jhsdjc',0);
+UPDATE device_count SET count = '98'WHERE id = 1
+INSERT INTO printer_fix (device_num, customer_name, phone_num, prob, fill_printer, change_dram, check_all, cable_power, cable_data, cd, other, date_time, device_name, state) VALUES (99,'Ahmed Mostafa','01113207046','',0,1,0,0,1,0,'',' 2020-02-13 22:28:03.802 ','khgghfghfh',0);
+UPDATE device_count SET count = '99'WHERE id = 1
+INSERT INTO printer_fix (device_num, customer_name, phone_num, prob, fill_printer, change_dram, check_all, cable_power, cable_data, cd, other, date_time, device_name, state) VALUES (100,'احمد مصطفي عبدالسميع','1113207046','',1,1,1,1,1,1,'mouse',' 2020-02-13 22:32:35.769 ','hp',0);
+UPDATE device_count SET count = '100'WHERE id = 1
+INSERT INTO software_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (101,'Ahmed Mostafa','01113207046','',0,0,1,1,0,1,0,0,0,'',' 2020-02-13 22:37:15.593 ','hp',0);
+UPDATE device_count SET count = '101'WHERE id = 1
+INSERT INTO software_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (102,'Ahmed Mostafa','01113207046','yukjhgh',1,0,1,0,1,1,0,1,1,'',' 2020-02-13 22:37:42.071 ','dell',0);
+UPDATE device_count SET count = '102'WHERE id = 1
+INSERT INTO printer_fix (device_num, customer_name, phone_num, prob, fill_printer, change_dram, check_all, cable_power, cable_data, cd, other, date_time, device_name, state) VALUES (103,'koko','0158656623','',0,1,0,0,1,0,'',' 2020-02-13 22:40:42.801 ','hp',0);
+UPDATE device_count SET count = '103'WHERE id = 1
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (104,'احمد ميبي','64532','',0,0,1,1,1,0,0,1,0,1,'mouse',' 2020-02-13 22:51:39.609 ','lap',0);
+UPDATE device_count SET count = '104'WHERE id = 1
+INSERT INTO software_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (105,'koko','0158656623','',0,0,1,0,0,0,1,0,0,'',' 2020-02-13 22:52:40.722 ','fujitsu',0);
+UPDATE device_count SET count = '105'WHERE id = 1
+UPDATE outer_fix SET customer_name = 'yousef', customer_phone_num = '010354651563', prob = 'jashg', win7 = 1, win8 = 1, win10 = 1, check_all = 1, hardware  = 1, software = 1, fill_printer = 1, change_dram = 1, cable_power = 0, cable_data = 1, battery = 1, charger = 1, bag = 0, cd = 1, other = 'jahsfjdhasdsad', price = '16000', rep_name = 'محمود الراوي', rep_phone_num = '015844365332', device_name = 'gjascvh'WHERE id = 1
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (106,'احمد مصطفي','1123580555','فاصل باور',0,0,1,1,0,0,0,1,1,0,'',' 2020-02-14 00:49:48.092 ','fujitsu',0);
+UPDATE device_count SET count = '106'WHERE id = 1
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (107,'','','',0,0,0,0,0,0,0,0,0,0,'',' 2020-02-14 00:59:12.909 ','',0);
+UPDATE device_count SET count = '107'WHERE id = 1
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (108,'','','',0,0,0,0,0,0,0,0,0,0,'',' 2020-02-14 01:00:22.744 ','',0);
+UPDATE device_count SET count = '108'WHERE id = 1
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (109,'محمد محمود','5825','',0,0,0,0,0,0,0,0,0,0,'',' 2020-02-14 01:16:25.217 ','dell',0);
+UPDATE device_count SET count = '109'WHERE id = 1
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (110,'','','',0,0,0,0,0,0,0,0,0,0,'',' 2020-02-14 01:18:09.862 ','',0);
+UPDATE device_count SET count = '110'WHERE id = 1
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (111,'','','',0,0,0,0,0,0,0,0,0,0,'',' 2020-02-14 01:28:58.344 ','',0);
+UPDATE device_count SET count = '111'WHERE id = 1
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (112,'','','',0,0,0,0,0,0,0,0,0,0,'',' 2020-02-14 01:29:24.204 ','',0);
+UPDATE device_count SET count = '112'WHERE id = 1
+INSERT INTO printer_fix (device_num, customer_name, phone_num, prob, fill_printer, change_dram, check_all, cable_power, cable_data, cd, other, date_time, device_name, state) VALUES (113,'احمد ميبي','64532','',1,0,0,0,1,0,'',' 2020-02-14 02:26:34.759 ','HP',0);
+UPDATE device_count SET count = '113'WHERE id = 1
+INSERT INTO printer_fix (device_num, customer_name, phone_num, prob, fill_printer, change_dram, check_all, cable_power, cable_data, cd, other, date_time, device_name, state) VALUES (114,'teto','015455465165','',0,1,0,0,1,0,'',' 2020-02-14 02:31:09.195 ','HP',0);
+UPDATE device_count SET count = '114'WHERE id = 1
+INSERT INTO outer_fix (device_num, customer_name, customer_phone_num, rep_name, rep_phone_num, prob, win7, win8, win10, check_all, hardware, software, fill_printer, change_dram, battery, charger, bag, cd, cable_power, cable_data, other, date_time, device_name, state) VALUES (115,'akjsacjbk','5825','محمود الراوي','025646546','',1,0,0,0,1,0,0,1,0,1,0,1,0,1,'',' 2020-02-14 02:37:00.464 ','HP lap',0);
+UPDATE device_count SET count = '115'WHERE id = 1
+INSERT INTO customers (name, phone, sec_phone, address) VALUES ('عبدالله مصطفي','01068435654','','');
+INSERT INTO hardware_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, hardware, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (116,'عبدالله مصطفي','01068435654','',0,0,1,0,1,0,0,0,1,0,'',' 2020-02-14 03:19:56.141 ','TOSHIPA',0);
+UPDATE device_count SET count = '116'WHERE id = 1
+INSERT INTO software_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (117,'عبدالله مصطفي','01068435654','',0,0,1,1,0,0,1,0,0,'',' 2020-02-14 03:21:50.913 ','labtop',0);
+UPDATE device_count SET count = '117'WHERE id = 1
+INSERT INTO printer_fix (device_num, customer_name, phone_num, prob, fill_printer, change_dram, check_all, cable_power, cable_data, cd, other, date_time, device_name, state) VALUES (118,'عبدالله مصطفي','01068435654','fhdytjh',0,1,0,0,1,0,'',' 2020-02-14 16:09:01.658 ','jhfghhh',0);
+UPDATE device_count SET count = '118'WHERE id = 1
+DELETE FROM hardware_fix WHERE id = 244
+INSERT INTO printer_fix (device_num, customer_name, phone_num, prob, fill_printer, change_dram, check_all, cable_power, cable_data, cd, other, date_time, device_name, state) VALUES (124,'ajshgdj','546','kjbsdfsdf',0,1,0,0,0,0,'',' 2020-02-15 11:09:40.604 ','sefbjsa',0);
+UPDATE device_count SET count = '124'WHERE id = 1
+INSERT INTO software_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (126,'Ahmed Mostafa','01113207046','',0,0,1,0,1,1,0,0,0,'',' 2020-02-15 11:25:42.393 ','FUJ',0);
+UPDATE device_count SET count = '126'WHERE id = 1
+INSERT INTO software_fix (device_num, customer_name, phone_num, prob, win7, win8, win10, check_all, software, battery, charger, bag, cd, other, date_time, device_name, state) VALUES (130,'nemo','01467312775','jhkjgjhbj',0,0,0,0,0,0,0,0,0,'',' 2020-02-15 11:44:36.854 ','gjfhchgc',0);
+UPDATE device_count SET count = '130'WHERE id = 1
