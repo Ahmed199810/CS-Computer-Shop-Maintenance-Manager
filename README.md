@@ -43,5 +43,5 @@
 </br>
 
 <p align="center">
-  <img src="desktop app.png" width="250" title="hover text">
+  <img src="desktop app.png" width="500" title="hover text">
 </p>
