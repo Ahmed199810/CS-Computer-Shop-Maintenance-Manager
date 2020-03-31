@@ -43,13 +43,5 @@
 </br>
 
 <p align="center">
-  <img src="images/m1.PNG" width="250" title="hover text">
-  <img src="images/m2.PNG" width="250" title="hover text">
-  <img src="images/m3.PNG" width="250" title="hover text">
-  <img src="images/m4.PNG" width="250" title="hover text">
-  <img src="images/m5.PNG" width="250" title="hover text">
-  <img src="images/m6.PNG" width="250" title="hover text">
-  <img src="images/m7.PNG" width="250" title="hover text">
-  <img src="images/m8.PNG" width="250" title="hover text">
-
+  <img src="desktop app.png" width="250" title="hover text">
 </p>
